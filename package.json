@@ -1,34 +1,17 @@
 {
-  "name": "netlify-json-server",
-  "version": "0.0.1",
-  "description": "Example of how to deploy a json-server Netlify app.",
-  "main": "functions/server.js",
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build json-server",
-    "start": "node server-local.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sandipmavani/netlify-express-json-server.git"
-  },
-  "keywords": [
-    "netlify",
-    "express.js"
-  ],
-  "author": "sandipmavani",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/sandipmavani/netlify-express-json-server/issues"
-  },
-  "homepage": "https://github.com/sandipmavani/netlify-express-json-server#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "json-server": "^0.14.2",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "netlify-lambda": "^0.4.0",
-    "serverless-http": "^1.10.1"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.1"
   }
 }
